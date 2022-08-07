@@ -2,7 +2,7 @@ name: flutter_build_mode_example
 description: Demonstrates how to use the flutter_build_mode plugin.
 
 environment:
-  sdk: ">=2.12.0"
+  sdk: ">=2.12.0  <3.0.0"
 
 dependencies:
   flutter:
