@@ -1,6 +1,6 @@
 name: flutter_build_mode
 description: Get the build mode of your Flutter app!
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/okaryo/flutter_build_mode
 repository: https://github.com/okaryo/flutter_build_mode
 
