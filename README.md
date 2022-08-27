@@ -1,6 +1,6 @@
 # flutter_build_mode
 
-Get the build mode of your Flutter app!
+Get 3 build modes of your Flutter app, release, profile, and debug!
 
 ## Usage
 ```dart
@@ -14,4 +14,11 @@ BuildMode.isProfile;
 
 // return true if build mode is Debug mode.
 BuildMode.isDebug;
+
+// return the result of a callback that matches the runtime build mode.
+BuildMode.when(
+  release: () => 'release mode!',
+  profile: () => 'profile mode!',
+  debug: () => 'debug mode!',
+);
 ```
