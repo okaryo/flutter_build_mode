@@ -1,3 +1,5 @@
+[![Test and Lint](https://github.com/okaryo/flutter_build_mode/actions/workflows/test-and-lint.yml/badge.svg)](https://github.com/okaryo/flutter_build_mode/actions/workflows/test-and-lint.yml)
+
 # flutter_build_mode
 
 Get 3 build modes of your Flutter app, release, profile, and debug!
