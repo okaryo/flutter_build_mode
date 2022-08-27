@@ -50,9 +50,15 @@ class BuildMode {
     R Function()? debug,
     required R Function() orElse,
   }) {
-    if (_buildMode == _BuildModeKind.release && release != null) return release();
-    if (_buildMode == _BuildModeKind.profile && profile != null) return profile();
-    if (_buildMode == _BuildModeKind.debug && debug != null) return debug();
+    if (_buildMode == _BuildModeKind.release && release != null) {
+      return release();
+    }
+    if (_buildMode == _BuildModeKind.profile && profile != null) {
+      return profile();
+    }
+    if (_buildMode == _BuildModeKind.debug && debug != null) {
+      return debug();
+    }
 
     return orElse();
   }
