@@ -2,7 +2,7 @@
 
 # flutter_build_mode
 
-Get 3 build modes of your Flutter app, release, profile, and debug!
+A package that extends the use of the 3 build modes, release, profile, and debug, for Flutter apps!
 
 ## Usage
 ```dart
