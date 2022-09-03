@@ -1,3 +1,5 @@
+import 'package:flutter/foundation.dart';
+
 enum _BuildModeKind { debug, release, profile }
 
 /// Provides Flutter app build mode information.
@@ -12,17 +14,10 @@ class BuildMode {
   static bool get isProfile => _buildMode == _BuildModeKind.profile;
 
   static final _BuildModeKind _buildMode = (() {
-    if (const bool.fromEnvironment('dart.vm.product')) {
-      return _BuildModeKind.release;
-    }
+    if (kReleaseMode) return _BuildModeKind.release;
+    if (kProfileMode) return _BuildModeKind.profile;
 
-    var result = _BuildModeKind.profile;
-    assert(() {
-      result = _BuildModeKind.debug;
-      return true;
-    }());
-
-    return result;
+    return _BuildModeKind.debug;
   })();
 
   /// A function returns the result of a callback that matches the runtime build mode.
