@@ -24,3 +24,10 @@ BuildMode.when(
   debug: () => 'debug mode!',
 );
 ```
+
+## Note
+If you simply want to get the build mode, we recommend using an API such as `kReleaseMode` in the `foundation` package.
+
+- [kReleaseMode](https://api.flutter.dev/flutter/foundation/kReleaseMode-constant.html)
+- [kProfileMode](https://api.flutter.dev/flutter/foundation/kProfileMode-constant.html)
+- [kDebugMode](https://api.flutter.dev/flutter/foundation/kDebugMode-constant.html)
