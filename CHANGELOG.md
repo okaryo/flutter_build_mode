@@ -1,3 +1,6 @@
+### 1.1.1
+- Refactor code
+
 ### 1.1.0
 - Add `when` and `maybeWhen` method!
 

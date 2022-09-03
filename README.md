@@ -2,7 +2,7 @@
 
 # flutter_build_mode
 
-Get 3 build modes of your Flutter app, release, profile, and debug!
+A package that extends the use of the 3 build modes, release, profile, and debug, for Flutter apps!
 
 ## Usage
 ```dart
@@ -24,3 +24,10 @@ BuildMode.when(
   debug: () => 'debug mode!',
 );
 ```
+
+## Note
+If you simply want to get the build mode, we recommend using an API such as `kReleaseMode` in the `foundation` package.
+
+- [kReleaseMode](https://api.flutter.dev/flutter/foundation/kReleaseMode-constant.html)
+- [kProfileMode](https://api.flutter.dev/flutter/foundation/kProfileMode-constant.html)
+- [kDebugMode](https://api.flutter.dev/flutter/foundation/kDebugMode-constant.html)

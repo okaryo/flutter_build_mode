@@ -1,6 +1,6 @@
 name: flutter_build_mode
-description: Get 3 build modes of your Flutter app, release, profile, and debug!
-version: 1.1.0
+description: A package that extends the use of the 3 build modes, release, profile, and debug, for Flutter apps!
+version: 1.1.1
 homepage: https://github.com/okaryo/flutter_build_mode
 repository: https://github.com/okaryo/flutter_build_mode
 
